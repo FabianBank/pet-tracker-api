@@ -16,39 +16,5 @@
                 welcome page and also update the welcome-file setting in</i>
             <tt>web.xml</tt>.</p>
 
-        <form method="post" action="register">
-            <table>
-                <tr>
-
-                    <td>
-                        <input type="text" class="rounded" name="username" value="$username" placeholder="username">
-                    </td>
-                    <td>
-                        <input type="text" class="rounded" name="password" value="$password" placeholder="password">
-                    </td>
-                </tr>
-
-            </table>
-            <BR>
-            <td><a>*: Minimaal 6 tekens</a></td>
-
-
-
-            <div style="margin-top:15px;">
-                <table>
-                    <tr>
-                        <td>
-                            <input type="submit" value="Registreer" name="commit" style="">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a>Registreer!</a>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </form>
-
-    </body>
+      </body>
 </html>
